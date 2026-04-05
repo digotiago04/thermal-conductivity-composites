@@ -40,6 +40,37 @@ EFFECTIVE THERMAL CONDUCTIVITY MATRIX (K*)
     1.4722    0.0000
    -0.0000    1.4722
 ```
+
+***Graphical Results:***
+
+The command above will also generate the following plots:
+
+<p align="center">
+<strong>Total 2D Temperature Field</strong>
+
+
+
+
+<img src="images/field_2dLEHT.png" width="600">
+</p>
+
+<p align="center">
+<strong>Vertical Temperature Profile ($x_1 = 0.25$)</strong>
+
+
+
+
+<img src="images/profile_xLEHT.png" width="600">
+</p>
+
+<p align="center">
+<strong>Horizontal Temperature Profile ($x_2 = 0.55$)</strong>
+
+
+
+
+<img src="images/profile_yLEHT.png" width="600">
+</p>
 ---
 ## 🔲 Finite-Volume Theory (FVT)
 FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity from the obtained local fields, this repository offers **two distinct mathematical formulations**:
