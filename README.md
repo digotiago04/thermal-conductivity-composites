@@ -53,24 +53,6 @@ The command above will also generate the following plots:
 
 <img src="images/field_2dLEHT.png" width="400">
 </p>
-
-<p align="center">
-<strong>Vertical Temperature Profile ($x_1 = 0.25$)</strong>
-
-
-
-
-<img src="images/profile_xLEHT.png" width="400">
-</p>
-
-<p align="center">
-<strong>Horizontal Temperature Profile ($x_2 = 0.55$)</strong>
-
-
-
-
-<img src="images/profile_yLEHT.png" width="400">
-</p>
 ---
 
 
