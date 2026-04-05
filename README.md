@@ -49,7 +49,7 @@ The command above will also generate the following plots:
 
 | Total 2D Temperature Field | Vertical Profile | Horizontal Profile |
 | :---: | :---: | :---: |
-| <img src="field_2dLEHT.png" width="500"> | <img src="profile_xLEHT.png" width="500"> | <img src="profile_yLEHT.png" width="500"> |
+| <img src="imagens/field_2dLEHT.png" width="500"> | <img src="imagens/profile_xLEHT.png" width="500"> | <img src="imagens/profile_yLEHT.png" width="500"> |
 
 ---
 
