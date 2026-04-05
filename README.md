@@ -18,14 +18,14 @@ The example below shows how the LEHT.m script can be used. The input parameters 
 
 **Table 1:** Inputs parameters' declaration
 ---
-| Parameter | Type | Description |
-| :---: | :---: | :--- |
-| **`k_m`** | Float | Thermal conductivity of the matrix phase. |
-| **`k_i`** | Float | Thermal conductivity of the inclusion phase. |
-| **`frac`** | Float | Volume fraction of the inclusion in the Representative Unit Cell (RUC). |
-| **`field`** | Integer (Flag) | Enables (`1`) or disables (`0`) the plotting of the total 2D temperature field. |
-| **`x_cut`** | Float | Coordinate $x_1$ to extract the vertical temperature profile (cut). |
-| **`y_cut`** | Float | Coordinate $x_2$ to extract the horizontal temperature profile (cut). |
+| Parameter | Description | Accepted Values |
+| :---: | :--- | :---: |
+| **`k_m`** | Thermal conductivity of the matrix phase. | `> 0` |
+| **`k_i`** | Thermal conductivity of the inclusion phase. | `> 0` |
+| **`frac`** | Volume fraction of the inclusion in the Representative Unit Cell (RUC). | `[0.05, 0.75]` |
+| **`field`** | Enables or disables the plotting of the total 2D temperature field. | `0` or `1` |
+| **`x_cut`** | Coordinate to extract the vertical temperature profile. | `0` (disable) or `0 < x_cut <= 1` |
+| **`y_cut`** | Coordinate to extract the horizontal temperature profile. | `0` (disable) or `0 < y_cut <= 1` |
 
 
 
