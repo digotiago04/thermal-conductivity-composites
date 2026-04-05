@@ -34,6 +34,10 @@ The `LEHT.m` function computes the effective thermal conductivity matrix, genera
 To run the analysis with a matrix conductivity of $0.5 \ W/(m \cdot °C)$, inclusion conductivity of $4.5 \ W/(m \cdot °C)$, and a volume fraction of $60\%$, while also generating the 2D temperature field and extracting profiles at $x_1 = 0.25$ and $x_2 = 0.55$, execute the following command:
 * LEHT(0.5, 4.5, 0.6, 1, 0.25, 0.55)
 
+***Command Window Output:***
+EFFECTIVE THERMAL CONDUCTIVITY MATRIX (K*)
+    1.4722    0.0000
+   -0.0000    1.4722
 ---
 ## 🔲 Finite-Volume Theory (FVT)
 FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity from the obtained local fields, this repository offers **two distinct mathematical formulations**:
