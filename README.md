@@ -116,23 +116,14 @@ The implementation of this tool was entirely developed in the MATLAB environment
 
 ---
 
-## 🚀 How to Use
+## ❌ Reporting issues
 
-All scripts were developed in a modular way in MATLAB, requiring no additional toolboxes to run the direct analyses.
+We strive to ensure that this Finite Volume Theory implementation is accurate and efficient. However, if you encounter any unexpected behavior, inconsistencies, or potential bugs in the code, your feedback is highly appreciated.
 
-### Input Parameters
-At the beginning of each main script, the user can define the following geometric and material parameters:
-* `L`, `H`: Dimensions of the Representative Unit Cell (RUC).
-* `nx`, `ny`: Mesh discretization (for FVT) or number of terms in the expansions (for LEHT).
-* `k_m`: Thermal conductivity of the matrix material.
-* `k_i`: Thermal conductivity of the inclusion material.
-* `frac`: Volume fraction of the inclusion in the composite.
+Please feel free to reach out via email:
+📩 diogo.santos@ctec.ufal.br
 
-### Execution
-Simply open the desired script (e.g., `main_LEHT_isotropic.m` or the corresponding FVT files) in the MATLAB environment and press *Run*. 
-
-### Results (Outputs)
-The programs calculate and print directly to the Command Window the **Effective Thermal Conductivity Matrix ($K^*$)** of dimension $2 \times 2$, reflecting the macroscopic properties of the material in the $X$ and $Y$ directions.
+Your contributions help improve the reliability and usability of this project for the scientific community.
 
 ---
 
