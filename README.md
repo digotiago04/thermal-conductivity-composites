@@ -51,7 +51,7 @@ The command above will also generate the following plots:
 
 
 ## 🔲 Finite-Volume Theory (FVT)
-FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity from the obtained local fields, this repository offers **two distinct mathematical formulations**:
+FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity  this repository offers **two distinct mathematical formulations:**
 
 * **Based on Mean-Field Theory:** In this formulation, homogenization is performed through the direct application of the volume averaging theorem. The effective conductivity is calculated by relating the volume average of the local heat fluxes to the average of the thermal gradients applied to the RUC.
 
