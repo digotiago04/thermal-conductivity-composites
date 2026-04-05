@@ -29,6 +29,8 @@ The `LEHT.m` function computes the effective thermal conductivity matrix, genera
 | **`y_cut`** | Coordinate to extract the horizontal temperature profile. | `0` (disable) or `0 < y_cut <= 1` |
 
 
+### Example
+
 
 ---
 ## 🔲 Finite-Volume Theory (FVT)
