@@ -45,13 +45,18 @@ EFFECTIVE THERMAL CONDUCTIVITY MATRIX (K*)
 
 The command above will also generate the following plots:
 
-<p align="center">
-<strong>Total 2D Temperature Field</strong>
+Total 2D Temperature Field
 
+<img src="images/field_2dLEHT.png" width="600">
 
+Vertical Temperature Profile ($x_1 = 0.25$)
 
+<img src="images/profile_xLEHT.png" width="600">
 
-<img src="images/field_2dLEHT.png" width="400">
+Horizontal Temperature Profile ($x_2 = 0.55$)
+
+<img src="images/profile_yLEHT.png" width="600">
+
 </p>
 ---
 
