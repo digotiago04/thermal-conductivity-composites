@@ -14,9 +14,7 @@ The Locally-Exact Homogenization Theory (LEHT) is an analytical approach based o
 ### SYNTAX
 
 The `LEHT` function computes the 2D temperature field and extracts 1D temperature profiles for a composite material considering a circular inclusion within a square matrix.
-```matlab
-LEHT(k_m, k_i, frac, field, x_cut, y_cut)
-
+* LEHT(k_m, k_i, frac, field, x_cut, y_cut)
 
 
 **Table 1:** Inputs parameters' declaration
