@@ -35,6 +35,8 @@ To run the analysis with a matrix conductivity of $0.5 \ W/(m \cdot °C)$, inclu
 * LEHT(0.5, 4.5, 0.6, 1, 0.25, 0.55)
 
 ***Command Window Output:***
+
+
 EFFECTIVE THERMAL CONDUCTIVITY MATRIX (K*)
     1.4722    0.0000
    -0.0000    1.4722
