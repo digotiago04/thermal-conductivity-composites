@@ -11,6 +11,21 @@ The models are designed for composites consisting of an isotropic matrix and cir
 ### Locally-Exact Homogenization Theory (LEHT)
 The Locally-Exact Homogenization Theory (LEHT) is an analytical approach based on the Trefftz concept, in which the local fields are represented by series expansions that satisfy the governing differential equations. The solution is obtained by imposing continuity conditions at the fiber–matrix interface and periodicity conditions on the unit cell. This methodology allows the effective thermal conductivity of materials with inclusions to be determined. The LEHT formulation implemented in this repository is based on the concepts presented in **DOI:** [https://doi.org/10.1016/j.ijheatmasstransfer.2020.119477].
 
+## NUMERICAL EXAMPLE
+The example below shows how the LEHT.m script can be used. The input parameters are shown in Table 1.
+* LEHT(k_m, k_i, frac, field, x_cut, y_cut)
+**Table 1:** Inputs parameters' declaration
+| Parameter | Type | Description |
+| :---: | :---: | :--- |
+| **`k_m`** | Float | Thermal conductivity of the matrix phase. |
+| **`k_i`** | Float | Thermal conductivity of the inclusion phase. |
+| **`frac`** | Float | Volume fraction of the inclusion in the Representative Unit Cell (RUC). |
+| **`field`** | Integer (Flag) | Enables (`1`) or disables (`0`) the plotting of the total 2D temperature field. |
+| **`x_cut`** | Float | Coordinate $x_1 \in (0, 1]$ to extract the vertical temperature profile (cut). |
+| **`y_cut`** | Float | Coordinate $x_2 \in (0, 1]$ to extract the horizontal temperature profile (cut). |
+
+
+
 ---
 ## 🔲 Finite-Volume Theory (FVT)
 FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity from the obtained local fields, this repository offers **two distinct mathematical formulations**:
