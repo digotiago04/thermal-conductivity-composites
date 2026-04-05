@@ -70,7 +70,7 @@ The mean_field.m and energy_based.m functions compute the effective thermal cond
 
 **Table 2:** Inputs parameters' declaration - FVT
 ---
-| Parameter | Description | Accepted Values |
+| Parameter | Description | Values |
 | :---: | :--- | :---: |
 | **`nx`** | Number of sub volumes in the $x_1$ direction. | `50, 100, 150, ...` |
 | **`ny`** | Number of sub volumes in the $x_2$ direction. | `50, 100, 150, ...` |
