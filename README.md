@@ -72,8 +72,8 @@ The mean_field.m and energy_based.m functions compute the effective thermal cond
 ---
 | Parameter | Description | Accepted Values |
 | :---: | :--- | :---: |
-| **`nx`** | Number of sub volumes in the x-direction. | `50, 100, 150, ...` |
-| **`ny`** | Number of sub volumes in the y-direction. | `50, 100, 150, ...` |
+| **`nx`** | Number of sub volumes in the $x_1$ direction. | `50, 100, 150, ...` |
+| **`ny`** | Number of sub volumes in the $x_2$ direction. | `50, 100, 150, ...` |
 | **`k_m`** | Thermal conductivity of the matrix phase. | `> 0` |
 | **`k_i`** | Thermal conductivity of the inclusion phase. | `> 0` |
 | **`frac`** | Volume fraction of the circular inclusion. | `[0.05, 0.75]` |
