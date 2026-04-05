@@ -17,7 +17,7 @@ The `LEHT.m` function computes the effective thermal conductivity matrix, genera
 * LEHT(k_m, k_i, frac, field, x_cut, y_cut)
 
 
-**Table 1:** Inputs parameters' declaration
+**Table 1:** Inputs parameters' declaration - LEHT
 ---
 | Parameter | Description | Accepted Values |
 | :---: | :--- | :---: |
@@ -60,6 +60,26 @@ FVT is a numerical approach based on the spatial discretization of the RUC into 
 
 While these two theories take distinct mathematical routes, they are strictly equivalent. Both formulations lead to the exact same effective macroscopic properties, providing a double-validation of the numerical homogenization process.
 
+
+### Syntax
+
+The mean_field.m and energy_based.m functions compute the effective thermal conductivity matrix and plot the 2D temperature field for a composite material with a circular inclusion. Additionally, they extract the 1D micro-fields at specified cross-sections, directly comparing both the numerical profiles and the calculated effective conductivity against analytical results obtained from LEHT.
+* mean_field(nx, ny, k_m, k_i, frac, field, x_cut, y_cut)
+* energy_based(nx, ny, k_m, k_i, frac, field, x_cut, y_cut)
+
+
+**Table 2:** Inputs parameters' declaration - FVT
+---
+| Parameter | Description | Accepted Values |
+| :---: | :--- | :---: |
+| **`nx`** | Number of finite volumes (mesh divisions) in the x-direction. | Integer `> 0` |
+| **`ny`** | Number of finite volumes (mesh divisions) in the y-direction. | Integer `> 0` |
+| **`k_m`** | Thermal conductivity of the matrix phase. | `> 0` |
+| **`k_i`** | Thermal conductivity of the inclusion phase. | `> 0` |
+| **`frac`** | Volume fraction of the circular inclusion. | `(0, 1)` |
+| **`field`** | Enables or disables the plotting of the total 2D temperature field. | `0` (disable) or `1` (enable) |
+| **`x_cut`** | Coordinate to extract the vertical temperature profile (compared with LEHT). | `0` (disable) or `0 < x_cut <= 1` |
+| **`y_cut`** | Coordinate to extract the horizontal temperature profile (compared with LEHT). | `0` (disable) or `0 < y_cut <= 1` |
 ---
 
 ##  💻 Requirements
