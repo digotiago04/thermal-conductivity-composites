@@ -127,5 +127,9 @@ Your contributions help improve the reliability and usability of this project fo
 
 ---
 
-## 📚 References and Theoretical Basis
-The implemented mathematical models are based on advanced literature regarding computational micromechanics and periodic thermal homogenization. If you use these codes in your academic or research work, please consider citing the relevant bibliographic references associated with the development of these methods.
+## 📚 Authors
+Project developed by:
+* Diogo Tiago dos Santos 📩 diogo.santos@ctec.ufal.br
+* Márcio André Araújo Cavalcante 📩 marcio.cavalcante@ceca.ufal.br
+* Romildo dos Santos Escarpini Filho 📩 romildo.escarpini@penedo.ufal.br
+* Arnaldo dos Santos Júnior 📩 arnaldo@ctec.ufal.br
