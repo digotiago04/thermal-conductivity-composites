@@ -72,14 +72,23 @@ The mean_field.m and energy_based.m functions compute the effective thermal cond
 ---
 | Parameter | Description | Accepted Values |
 | :---: | :--- | :---: |
-| **`nx`** | Number of sub volumes in the x-direction. | Integer `> 0` |
-| **`ny`** | Number of sub volumes in the y-direction. | Integer `> 0` |
+| **`nx`** | Number of sub volumes in the x-direction. | `50, 100, 150, ...` |
+| **`ny`** | Number of sub volumes in the y-direction. | `50, 100, 150, ...` |
 | **`k_m`** | Thermal conductivity of the matrix phase. | `> 0` |
 | **`k_i`** | Thermal conductivity of the inclusion phase. | `> 0` |
-| **`frac`** | Volume fraction of the circular inclusion. | `(0, 1)` |
+| **`frac`** | Volume fraction of the circular inclusion. | `[0.05, 0.75]` |
 | **`field`** | Enables or disables the plotting of the total 2D temperature field. | `0` (disable) or `1` (enable) |
 | **`x_cut`** | Coordinate to extract the vertical temperature profile (compared with LEHT). | `0` (disable) or `0 < x_cut <= 1` |
 | **`y_cut`** | Coordinate to extract the horizontal temperature profile (compared with LEHT). | `0` (disable) or `0 < y_cut <= 1` |
+
+
+### Usage Example
+
+To run the analysis using a $150 \times 150$ mesh, with a matrix conductivity of $0.5 \ W/(m \cdot ^\circ C)$, inclusion conductivity of $4.5 \ W/(m \cdot ^\circ C)$, and a volume fraction of $60\%$, while also generating the 2D temperature field and extracting profiles at $x_1 = 0.25$ and $x_2 = 0.55$, execute the following command:
+
+* energy_based(150, 150, 0.5, 4.5, 0.6, 1, 0.25, 0.55)
+
+
 ---
 
 ##  💻 Requirements
