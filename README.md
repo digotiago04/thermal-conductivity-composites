@@ -15,6 +15,7 @@ The Locally-Exact Homogenization Theory (LEHT) is an analytical approach based o
 The example below shows how the LEHT.m script can be used. The input parameters are shown in Table 1.
 * LEHT(k_m, k_i, frac, field, x_cut, y_cut)
 **Table 1:** Inputs parameters' declaration
+---
 | Parameter | Type | Description |
 | :---: | :---: | :--- |
 | **`k_m`** | Float | Thermal conductivity of the matrix phase. |
