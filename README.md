@@ -59,6 +59,7 @@ FVT is a numerical approach based on the spatial discretization of the RUC into 
 
 
 While these two theories take distinct mathematical routes, they are strictly equivalent. Both formulations lead to the exact same effective macroscopic properties, providing a double-validation of the numerical homogenization process.
+
 ---
 
 ##  💻 Requirements
