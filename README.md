@@ -88,7 +88,19 @@ To run the analysis using a $150 \times 150$ mesh, with a matrix conductivity of
 
 * energy_based(150, 150, 0.5, 4.5, 0.6, 1, 0.25, 0.55)
 
+***Command Window Output:***
+```text
+====================================================
+EFFECTIVE THERMAL CONDUCTIVITY MATRICES (K*)
+====================================================
+(FVT - BASED ON ENERGY THEORY) =
+    1.4752    0.0000
+    0.0000    1.4752
 
+(LEHT - ANALYTICAL) =
+    1.4722   -0.0000
+    0.0000    1.4722
+```
 ---
 
 ##  💻 Requirements
