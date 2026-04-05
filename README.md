@@ -32,9 +32,7 @@ The `LEHT.m` function computes the effective thermal conductivity matrix, genera
 ### Usage Example
 
 To run the analysis with a matrix conductivity of $0.5$, inclusion conductivity of $4.5$, and a volume fraction of $60\%$, execute the following command:
-
-```matlab
-LEHT(0.5, 4.5, 0.6, 1, 0.25, 0.55)
+* LEHT(0.5, 4.5, 0.6, 1, 0.25, 0.55)
 
 ---
 ## 🔲 Finite-Volume Theory (FVT)
