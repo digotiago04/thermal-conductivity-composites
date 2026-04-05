@@ -45,7 +45,7 @@ EFFECTIVE THERMAL CONDUCTIVITY MATRIX (K*)
 
 The command above will also generate the following plots:
 
-        Total 2D Temperature Field
+Total 2D Temperature Field
 
 <img src="imagens/field_2dLEHT.png" width="400">
 
