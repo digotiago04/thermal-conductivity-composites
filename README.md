@@ -51,7 +51,7 @@ The command above will also generate the following plots:
 
 
 
-<img src="images/field_2dLEHT.png" width="600">
+<img src="images/field_2dLEHT.png" width="400">
 </p>
 
 <p align="center">
@@ -60,7 +60,7 @@ The command above will also generate the following plots:
 
 
 
-<img src="images/profile_xLEHT.png" width="600">
+<img src="images/profile_xLEHT.png" width="400">
 </p>
 
 <p align="center">
@@ -69,7 +69,7 @@ The command above will also generate the following plots:
 
 
 
-<img src="images/profile_yLEHT.png" width="600">
+<img src="images/profile_yLEHT.png" width="400">
 </p>
 ---
 ## 🔲 Finite-Volume Theory (FVT)
