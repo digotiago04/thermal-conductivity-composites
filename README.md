@@ -23,7 +23,7 @@ The example below shows how the LEHT.m script can be used. The input parameters 
 | **`k_m`** | Thermal conductivity of the matrix phase. | `> 0` |
 | **`k_i`** | Thermal conductivity of the inclusion phase. | `> 0` |
 | **`frac`** | Volume fraction of the inclusion in the Representative Unit Cell (RUC). | `[0.05, 0.75]` |
-| **`field`** | Enables or disables the plotting of the total 2D temperature field. | `0` or `1` |
+| **`field`** | Enables or disables the plotting of the total 2D temperature field. | `0` (disable) or `1` (enable) |
 | **`x_cut`** | Coordinate to extract the vertical temperature profile. | `0` (disable) or `0 < x_cut <= 1` |
 | **`y_cut`** | Coordinate to extract the horizontal temperature profile. | `0` (disable) or `0 < y_cut <= 1` |
 
