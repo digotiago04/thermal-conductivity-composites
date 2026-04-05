@@ -57,7 +57,6 @@ Horizontal Temperature Profile ($x_2 = 0.55$)
 
 <img src="images/profile_yLEHT.png" width="600">
 
-</p>
 ---
 
 
