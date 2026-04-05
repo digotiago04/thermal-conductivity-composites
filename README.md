@@ -72,6 +72,8 @@ The command above will also generate the following plots:
 <img src="images/profile_yLEHT.png" width="400">
 </p>
 ---
+
+
 ## 🔲 Finite-Volume Theory (FVT)
 FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity from the obtained local fields, this repository offers **two distinct mathematical formulations**:
 
