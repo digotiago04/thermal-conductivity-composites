@@ -101,6 +101,13 @@ EFFECTIVE THERMAL CONDUCTIVITY MATRICES (K*)
     1.4722   -0.0000
     0.0000    1.4722
 ```
+
+***Graphical Results:***
+
+The command above will also generate the following plots:
+
+ <img src="imagens/field_2dFVT.png" width="325">  <img src="imagens/profile_xFVT.png" width="325">  <img src="imagens/profile_yFVT.png" width="325"> 
+
 ---
 
 ##  💻 Requirements
