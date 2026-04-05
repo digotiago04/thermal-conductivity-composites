@@ -47,7 +47,7 @@ The command above will also generate the following plots:
 
 Total 2D Temperature Field
 
-<img src="field_2dLEHT.png" width="600">
+<img src="imagens/field_2dLEHT.png" width="600">
 
 Vertical Temperature Profile ($x_1 = 0.25$)
 
