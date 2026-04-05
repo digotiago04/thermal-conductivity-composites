@@ -53,9 +53,9 @@ The command above will also generate the following plots:
 ## 🔲 Finite-Volume Theory (FVT)
 FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity  this repository offers **two distinct mathematical formulations:**
 
-* **Based on Mean-Field Theory:** In this formulation, homogenization is performed through the direct application of the volume averaging theorem. The effective conductivity is calculated by relating the volume average of the local heat fluxes to the average of the thermal gradients applied to the RUC.
+* **Based on Mean-Field Theory:** Mean-field theory is based on the principle that the effective thermal properties observed experimentally arise from averaging relationships between local fields (temperature gradients and heat fluxes) within microscopically heterogeneous materials. Consequently, the macroscopic fields are defined as volume averages of their corresponding microscopic fields, and the effective thermal properties emerge naturally from these average relations.
 
-* **Based on Energy Theory:** This formulation focuses on energy conservation. Homogenization is performed by ensuring the equivalence of the thermal energy dissipation rate (or entropy production rate) between the original heterogeneous RUC and the equivalent homogeneous material (effective medium).
+* **Based on Energy Theory:** In this approach, homogenization can be interpreted as the process of finding a homogeneous material that is energetically equivalent to a heterogeneous material with a complex microstructure. 
 
 ---
 
