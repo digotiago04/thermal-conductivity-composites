@@ -107,7 +107,7 @@ EFFECTIVE THERMAL CONDUCTIVITY MATRICES (K*)
 
 The command above will also generate the following plots:
 
-|<img src="imagens/field_2dFVT.png" width="325"> | <img src="imagens/profile_xFVT.png" width="325"> | <img src="imagens/profile_yFVT.png" width="325"> |
+|<img src="imagens/field_2dFVT.png" width="400"> | <img src="imagens/profile_xFVT.png" width="400"> | <img src="imagens/profile_yFVT.png" width="400"> |
 | :---: | :---:  |:---: |
 ---
 
