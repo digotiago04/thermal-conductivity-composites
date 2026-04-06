@@ -64,7 +64,7 @@ While these two theories take distinct mathematical routes, they are strictly eq
 
 ### Syntax
 
-The mean_field.m and energy_based.m functions compute the effective thermal conductivity matrix and plot the 2D temperature field for a composite material with a circular inclusion. Additionally, they extract the 1D micro-fields at specified cross-sections, directly comparing both the numerical profiles and the calculated effective conductivity against analytical results obtained from LEHT.
+The `mean_field.m` and `energy_based.m` functions compute the effective thermal conductivity matrix and plot the 2D temperature field for a composite material with a circular inclusion. Additionally, they extract the 1D micro-fields at specified cross-sections, directly comparing both the numerical profiles and the calculated effective conductivity against analytical results obtained from LEHT.
 * mean_field(nx, ny, k_m, k_i, frac, field, x_cut, y_cut)
 * energy_based(nx, ny, k_m, k_i, frac, field, x_cut, y_cut)
 
