@@ -17,6 +17,11 @@ The models consider a square periodic unit cell containing a centered circular i
 </p>
 
 ---
+
+##  💻 Requirements
+The implementation of this tool was entirely developed in the MATLAB environment (version R2022b). Its development did not require the use of additional tools or packages, so the code can be executed in a standard MATLAB installation.
+
+---
 ***Graphical Results:***
 
 The command above will also generate the following plots:
@@ -87,10 +92,7 @@ The command above will also generate the following plots:
 | :---: | :---:  |:---: |
 ---
 
-##  💻 Requirements
-The implementation of this tool was entirely developed in the MATLAB environment (version R2022b). Its development did not require the use of additional tools or packages, so the code can be executed in a standard MATLAB installation.
 
----
 
 ## ❌ Reporting issues
 
