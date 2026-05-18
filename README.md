@@ -22,17 +22,7 @@ The models consider a square periodic unit cell containing a centered circular i
 The implementation of this tool was entirely developed in the MATLAB environment (version R2022b). Its development did not require the use of additional tools or packages, so the code can be executed in a standard MATLAB installation.
 
 ---
-***Graphical Results:***
-
-The command above will also generate the following plots:
-
-| <img src="imagens/field_2dLEHT.png" width="500"> | <img src="imagens/profile_xLEHT.png" width="500"> | <img src="imagens/profile_yLEHT.png" width="500"> |
-| :---: | :---:  |:---: |
-
----
-
-
-## 🔲 Finite-Volume Theory (FVT)
+## ▶️ Running the code
 FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity  this repository offers **two distinct mathematical formulations:**
 
 * **Based on Mean-Field Theory:** Mean-field theory is based on the principle that the effective thermal properties observed experimentally arise from averaging relationships between local fields (temperature gradients and heat fluxes) within microscopically heterogeneous materials. Consequently, the macroscopic fields are defined as volume averages of their corresponding microscopic fields, and the effective thermal properties emerge naturally from these average relations.
@@ -79,9 +69,6 @@ EFFECTIVE THERMAL CONDUCTIVITY MATRICES (K*)
     1.4752    0.0000
     0.0000    1.4752
 
-(LEHT - ANALYTICAL) =
-    1.4722   -0.0000
-    0.0000    1.4722
 ```
 
 ***Graphical Results:***
@@ -91,7 +78,6 @@ The command above will also generate the following plots:
 |<img src="imagens/field_2dFVT.png" width="500"> | <img src="imagens/profile_xFVT.png" width="500"> | <img src="imagens/profile_yFVT.png" width="500"> |
 | :---: | :---:  |:---: |
 ---
-
 
 
 ## ❌ Reporting issues
