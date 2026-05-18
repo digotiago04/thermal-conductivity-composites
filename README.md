@@ -13,7 +13,7 @@ The models consider a square periodic unit cell containing a centered circular i
 * ** Post-processing included: total temperature field visualization and microscopic temperature profiles along the coordinate directions.
 
 <p align="center">
-  <img src="imagens/RUC.png" width="700">
+  <img src="imagens/RUC.png" width="600">
 </p>
 
 ---
