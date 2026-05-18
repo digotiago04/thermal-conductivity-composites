@@ -9,10 +9,12 @@ The models consider a square periodic unit cell containing a centered circular i
 * ** Highly vectorized, high-performance MATLAB implementation, minimizing loops and leveraging efficient sparse operations.
 * ** Computes the effective thermal conductivity matrixK<sup>*</sup> from two unit macroscopic gradient tests.
 * ** Periodic boundary conditions automatically enforced on the square RUC for thermal homogenization.
-* ** Square periodic unit cell with a centered circular inclusion, where both matrix and inclusion (fiber) are isotropic.
+* ** Square periodic unit cell with a centered circular inclusion, where both matrix and inclusion are isotropic.
 * ** Post-processing included: total temperature field visualization and microscopic temperature profiles along the coordinate directions.
 
-<img src="imagens/RUC.png" width="500">
+<p align="center">
+  <img src="imagens/RUC.png" width="700">
+</p>
 
 ---
 ***Graphical Results:***
