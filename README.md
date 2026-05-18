@@ -1,45 +1,10 @@
-# 🔥 Effective Thermal Conductivity of Composites
+# 🔥 FVDAM-THERMAL
 
-This repository features MATLAB codes developed to compute the effective thermal conductivity of periodic composite materials. The implementations encompass the analytical formulation of the **Locally-Exact Homogenization Theory (LEHT)** and the numerical **Finite-Volume Theory (FVT)**, utilizing both the Mean-Field Theory approach and the energy-based approach.
+This repository features MATLAB codes developed to compute the effective thermal conductivity of periodic composite materials. The implementations include both a mean-field formulation and an energy-based formulation for numerical homogenization.
 
-The models are designed for composites consisting of an isotropic matrix and circular isotropic inclusions, represented through a periodic unit cell. In addition to determining the effective thermal conductivity matrix, the repository provides the visualization of the temperature field and the microscopic temperature profiles along the coordinate directions. Thus, this computational framework constitutes a robust tool for the comparative analysis between analytical and numerical homogenization methods. 
+The models consider a square periodic unit cell containing a centered circular inclusion embedded in a surrounding matrix. Both the matrix phase and the inclusion (fiber) phase are assumed to be isotropic. In addition to evaluating the effective thermal conductivity matrix K^∗, the repository also provides visualization of the temperature field and microscopic temperature profiles along the coordinate directions.
 
 ---
-
-## 📐 Analytical solution
-
-### Locally-Exact Homogenization Theory (LEHT)
-The Locally-Exact Homogenization Theory (LEHT) is an analytical approach based on the Trefftz concept, in which the local fields are represented by series expansions that satisfy the governing differential equations. The solution is obtained by imposing continuity conditions at the fiber–matrix interface and periodicity conditions on the unit cell. This methodology allows the effective thermal conductivity of materials with inclusions to be determined. The LEHT formulation implemented in this repository is based on the concepts presented in **DOI:** [https://doi.org/10.1016/j.ijheatmasstransfer.2020.119477].
-
-### Syntax
-
-The `LEHT.m` function computes the effective thermal conductivity matrix, generates the 2D temperature field, and extracts 1D temperature profiles for a composite material considering a circular inclusion within a square matrix.
-* LEHT(k_m, k_i, frac, field, x_cut, y_cut)
-
-
-**Table 1:** Inputs parameters' declaration - LEHT
----
-| Parameter | Description | Accepted Values |
-| :---: | :--- | :---: |
-| **`k_m`** | Thermal conductivity of the matrix phase. | `> 0` |
-| **`k_i`** | Thermal conductivity of the inclusion phase. | `> 0` |
-| **`frac`** | Volume fraction of the inclusion in the Representative Unit Cell (RUC). | `[0.05, 0.75]` |
-| **`field`** | Enables or disables the plotting of the total 2D temperature field. | `0` (disable) or `1` (enable) |
-| **`x_cut`** | Coordinate to extract the vertical temperature profile. | `0` (disable) or `0 < x_cut <= 1` |
-| **`y_cut`** | Coordinate to extract the horizontal temperature profile. | `0` (disable) or `0 < y_cut <= 1` |
-
-
-### Usage Example
-
-To run the analysis with a matrix conductivity of $0.5 \ W/(m \cdot °C)$, inclusion conductivity of $4.5 \ W/(m \cdot °C)$, and a volume fraction of 60 %, while also generating the 2D temperature field and extracting profiles at $x_1 = 0.25$ and $x_2 = 0.55$, execute the following command:
-* LEHT(0.5, 4.5, 0.6, 1, 0.25, 0.55)
-
-***Command Window Output:***
-```text
-EFFECTIVE THERMAL CONDUCTIVITY MATRIX (K*)
-    1.4722    0.0000
-   -0.0000    1.4722
-```
 
 ***Graphical Results:***
 
