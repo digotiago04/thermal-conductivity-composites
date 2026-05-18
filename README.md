@@ -5,7 +5,16 @@ This repository features MATLAB codes developed to compute the effective thermal
 The models consider a square periodic unit cell containing a centered circular inclusion embedded in a surrounding matrix. Both the matrix phase and the inclusion (fiber) phase are assumed to be isotropic. In addition to evaluating the effective thermal conductivity matrix K<sup>*</sup>, the repository also provides visualization of the temperature field and microscopic temperature profiles along the coordinate directions.
 
 ---
+## ⚙️ Features
+** Highly vectorized, high-performance MATLAB implementation, minimizing loops and leveraging efficient sparse operations.
+** Computes the effective thermal conductivity matrixK<sup>*</sup> from two unit macroscopic gradient tests.
+** Periodic boundary conditions automatically enforced on the square RUC for thermal homogenization.
+** Square periodic unit cell with a centered circular inclusion, where both matrix and inclusion (fiber) are isotropic.
+** Post-processing included: total temperature field visualization and microscopic temperature profiles along the coordinate directions.
 
+
+
+---
 ***Graphical Results:***
 
 The command above will also generate the following plots:
